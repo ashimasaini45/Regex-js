@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  #text-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  #check-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #814f4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #check-btn:hover {
+    background-color: #b65b5b;
+  }
+
+  .output-box {
+    width: 80%;
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #c69292;
+    border: 2px solid #814f4f;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  #result {
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      padding: 0 20px;
+    }
+
+    #text-input, .output-box {
+      width: 90%;
+      font-size: 14px;
+    }
+
+    #check-btn {
+      width: 90%;
+      padding: 10px;
+    }
+
+    .output-box {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
